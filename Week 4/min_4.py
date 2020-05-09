@@ -1,12 +1,14 @@
+a1 = int(input())
+b2 = int(input())
+c3 = int(input())
+d4 = int(input())
 
-def min4(a,b,c,d):
-    s = min(a,b)
-    p = min(c,d)
-    q = min(s,p)
+
+def min4(a, b, c, d):
+    s = min(a, b)
+    p = min(c, d)
+    q = min(s, p)
     print(q)
 
-a = int(input())
-b = int(input())
-c = int(input())
-d = int(input())
-min4(a,b,c,d)
+
+min4(a1, b2, c3, d4)
