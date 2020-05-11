@@ -9,4 +9,4 @@ def ReduceFraction(n, m):
 
 n = int(input())
 m = int(input())
-print(ReduceFraction(n, m))
+print(*ReduceFraction(n, m))
