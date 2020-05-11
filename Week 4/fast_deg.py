@@ -9,6 +9,8 @@ def Fpower(a, n):
     return a
 
 
-a = float(input())
-b = int(input())
-print(Fpower(a, b))
+#a = float(input())
+#b = int(input())
+#print(Fpower(a, b))
+
+print(16 % 12)
