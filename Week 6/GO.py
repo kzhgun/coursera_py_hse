@@ -10,7 +10,8 @@ index = 0
 result = []
 
 for b in b:
-    while index + 1 < c and abs((b[1]) - (d[index][1])) > abs(b[1] - d[index + 1][1]):
+    while index + 1 < c and abs((b[1]) - (d[index][1])) \
+            > abs(b[1] - d[index + 1][1]):
         index += 1
     else:
         result.append([b[0], d[index][0]])
