@@ -19,6 +19,7 @@ else:
             print(st1[k-1], file=out)
             break
     if k == 0:
+
         print(1, file=out)
 out.close()
 inp.close()
