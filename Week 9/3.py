@@ -43,6 +43,9 @@ class Matrix:
         self.matrix = t_matrix
         return Matrix(t_matrix)
 
+    def transposed(self):
+        m8 = list(zip(*self.matrix))
+        return Matrix(m8)
     __rmul__ = __mul__
 
 
